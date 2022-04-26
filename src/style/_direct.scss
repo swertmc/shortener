@@ -1,0 +1,15 @@
+.direct {
+	.direct__row {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		font-family: $font-family-url;
+		text-align: center;
+		font-size: 35px;
+		margin: 0 0 10px 0;
+	}
+}

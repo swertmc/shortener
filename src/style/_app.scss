@@ -1,0 +1,28 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $background;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+.footer {
+	//background-color: #f5f5f5;
+	width: 100%;
+	.footer__row {
+		display: flex;
+		height: 65px;
+		justify-content: center;
+		align-items: center;
+		.footer_text {
+			color: #445144;
+			font-weight: 500;
+			font-size: 18px;
+			letter-spacing: 0.3px;
+			font-family: $font-family-miras;
+		}
+	}
+}

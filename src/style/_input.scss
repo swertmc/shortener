@@ -1,0 +1,71 @@
+.input {
+	flex: 1 1 auto;
+	//background-color: rgb(223, 116, 45);
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.input__row {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		// max-width: 480px;
+		min-width: 100%;
+		.input__form {
+			display: flex;
+			flex-direction: column;
+			min-width: 900px;
+			@media (max-width: 1300px) {
+				min-width: 700px;
+			}
+			@media (max-width: 992px) {
+				min-width: 590px;
+			}
+			@media (max-width: 767px) {
+				min-width: 480px;
+			}
+			@media (max-width: 540px) {
+				min-width: 370px;
+			}
+			@media (max-width: 414px) {
+				min-width: 290px;
+			}
+
+			input {
+				font-size: 20px;
+				padding: 10px 6px;
+				border-radius: 7px 7px 0px 0px;
+				font-weight: 500;
+				font-family: $font-family-url;
+				background-color: #fff;
+			}
+			button {
+				font-size: 18px;
+				font-weight: 600;
+				letter-spacing: 5px;
+				margin: 2.5px 0 0 0;
+				cursor: pointer;
+			}
+			.input__text {
+				display: flex;
+				margin: 0 auto;
+				p {
+					font-size: 24px;
+					text-align: center;
+					font-family: $font-family-url;
+					font-weight: 500;
+					margin: 10px 0 0 5px;
+					letter-spacing: 0.3px;
+				}
+				.link {
+					font-weight: 700;
+					color: $miras-ga;
+				}
+			}
+		}
+	}
+}
+.MuiButton-contained.Mui-disabled {
+	background-color: $Mui-disabled;
+}
